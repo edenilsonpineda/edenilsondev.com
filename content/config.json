@@ -1,7 +1,7 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Blog by Edenilson Pineda",
+  "url": "https://edenilsondev.com",
+  "subtitle": "Software Engineer based on El Salvador 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -15,20 +15,16 @@
     {
       "label": "About me",
       "path": "/pages/about"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
-    "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "name": "Edenilson Pineda",
+    "photo": "/profile.jpg",
+    "bio": "Software Engineer based on El Salvador 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
     "contacts": {
       "rss": "",
       "email": "",
-      "github": "alxshelepenok/gatsby-starter-lumen",
+      "github": "edenilsonpineda",
       "facebook": "#",
       "telegram": "#",
       "twitter": "#",
