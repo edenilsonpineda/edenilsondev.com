@@ -1,7 +1,7 @@
 ---
 title: "About me"
 template: "page"
-socialImage: ""
+socialImage: "./umberto-jXd2FSvcRr8-unsplash.jpg"
 ---
 
 <h1 align='center'>
