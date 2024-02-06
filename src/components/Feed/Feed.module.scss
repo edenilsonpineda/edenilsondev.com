@@ -62,11 +62,12 @@
     .more {
       color: var(--color-primary);
       font-size: $typographic-base-font-size;
+      font-weight: 600;
 
       &:hover,
       &:focus {
         border-bottom: 1px solid $color-blue;
-        color: var(--color-primary);
+        color: $color-dark;
       }
     }
   }

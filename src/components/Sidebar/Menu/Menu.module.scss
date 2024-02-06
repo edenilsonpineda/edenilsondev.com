@@ -21,13 +21,13 @@
 
         &:hover,
         &:focus {
-          border-bottom: 1px solid $color-blue;
-          color: $color-blue;
+          color: $color-sea-mid;
+          font-weight: normal;
         }
 
         &.active {
-          border-bottom: 1px solid var(--color-typographic-base-font);
-          color: var(--color-typographic-base-font);
+          color: $color-sea-dark;
+          font-weight: bold;
         }
       }
     }

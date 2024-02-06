@@ -3,7 +3,8 @@ import React from "react";
 import classNames from "classnames";
 import { Link } from "gatsby";
 
-import { PAGINATION } from "@/constants";
+import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid"
+
 
 import * as styles from "./Pagination.module.scss";
 
@@ -36,7 +37,7 @@ const Pagination = ({
           to={hasPrevPage ? prevPagePath : "/"}
           className={prevClassName}
         >
-          {PAGINATION.PREV_PAGE}
+           <ArrowLeftCircleIcon className={styles.arrow} width={35} />
         </Link>
       </div>
       <div className={styles.next}>
@@ -45,7 +46,8 @@ const Pagination = ({
           to={hasNextPage ? nextPagePath : "/"}
           className={nextClassName}
         >
-          {PAGINATION.NEXT_PAGE}
+          <ArrowRightCircleIcon className={styles.arrow} width={35}/>
+          
         </Link>
       </div>
     </div>
