@@ -78,15 +78,6 @@ img {
 }
 
 hr {
-  background-image: linear-gradient(
-    to bottom,
-    transparent 1px,
-    transparent 11px,
-    $color-dark 11px,
-    $color-dark 15px,
-    transparent 15px,
-    transparent 26px
-  );
   background-size: 100% 26px;
   border: 0;
   color: var(--color-typographic-base-font);

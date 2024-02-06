@@ -113,6 +113,7 @@ export default {
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
           "gatsby-remark-external-links",
+          "gatsby-remark-emoji", // <-- this line adds emoji support
         ],
       },
     },
