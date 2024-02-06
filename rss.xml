@@ -1,43 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Edenilson Pineda]]></title><description><![CDATA[Blog by Edenilson Pineda]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Feb 2024 22:08:09 GMT</lastBuildDate><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://edenilsondev.com/posts/perfecting-the-art-of-perfection</link><guid isPermaLink="false">https://edenilsondev.com/posts/perfecting-the-art-of-perfection</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Edenilson Pineda]]></title><description><![CDATA[Blog by Edenilson Pineda]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Feb 2024 00:14:29 GMT</lastBuildDate><item><title><![CDATA[¿Cómo instalar Java JDK en MacOS y Windows?]]></title><description><![CDATA[En este artículo aprenderás a instalar tanto en Windows y MacOS el JDK (Java Development Kit) el cuál es un conjunto de herramientas para poder desarrollar aplicaciones y programas con el lenguaje de programación Java.
+El JDK nos brinda un entorno completo para escribir, compilar, depurar y ejecutar aplicaciones Java.]]></description><link>https://edenilsondev.com/posts/instalacion-jdk-macos-win</link><guid isPermaLink="false">https://edenilsondev.com/posts/instalacion-jdk-macos-win</guid><pubDate>Thu, 22 Sep 2022 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En este artículo aprenderás a instalar tanto en Windows y MacOS el JDK (Java Development Kit) el cuál es un conjunto de herramientas para poder desarrollar aplicaciones y programas con el lenguaje de programación Java.&lt;/p&gt;
+&lt;p&gt;El JDK nos brinda un entorno completo para escribir, compilar, depurar y ejecutar aplicaciones Java.&lt;/p&gt;
+&lt;h3 id=&quot;qué-distribución-o-plataforma-de-java-debo-instalar-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#qu%C3%A9-distribuci%C3%B3n-o-plataforma-de-java-debo-instalar-&quot; aria-label=&quot;qué distribución o plataforma de java debo instalar  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;¿Qué distribución o plataforma de Java debo instalar? 🤔&lt;/h3&gt;
+&lt;p&gt;Para que podamos crear y ejecutar nuestras aplicaciones Java, requerimos de un compilador Java, las bibliotecas de Java Runtime y una máquina virtual (JVM), el cual implementa la especificación Java Platform Standard Edition (“Java SE”).La versión “Estándar” hace referencia a las herramientas básicas requeridas para ejecutar nuestras aplicaciones escritas en Java.&lt;/p&gt;
+&lt;p&gt;Existen otro tipo de plataformas de Java, por ejemplo, &lt;strong&gt;Java Enterprise Edition (JEE), Java Micro Edition (Java ME) y Java FX&lt;/strong&gt;, las cuales están fuera del alcance de este artículo.&lt;/p&gt;
+&lt;h3 id=&quot;distribuciones&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#distribuciones&quot; aria-label=&quot;distribuciones permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Distribuciones&lt;/h3&gt;
+&lt;p&gt;Las distribuciones del código fuente del Java JDK, son proporcionadas por diferentes proveedores para una serie de plataformas compatibles (MacOS, Docker, Windows, Linux, etc).
+Estas distribuciones se diferencian en cuanto a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Licencias.&lt;/li&gt;
+&lt;li&gt;Soporte comercial.&lt;/li&gt;
+&lt;li&gt;Plataformas compatibles y frecuencia de actualizaciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dentro de uso más comercial encontramos la distribución de Oracle — Oracle JDK, antes, parte de la empresa Sun Microsystems, empresa que posteriormente fue adquirida por Oracle.&lt;/p&gt;
+&lt;p&gt;Otras de las distribuciones más utilizadas se encuentran OpenJDK (una alternativa Open Source), AdoptOpenJDK la cuál fue reemplazada por Adoptium Eclipse Temurin OpenJDK, entre otras.&lt;/p&gt;
+&lt;p&gt;Si quieres saber un poco más sobre qué JDK necesitas dentro de un proyecto puedes consultar el sitio web &lt;strong&gt;&lt;a href=&quot;https://whichjdk.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Which JDK&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;instalación-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-&quot; aria-label=&quot;instalación  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación 📦&lt;/h2&gt;
+&lt;p&gt;Por practicidad dentro de este artículo, instalaremos la versión &lt;strong&gt;OpenSource&lt;/strong&gt; llamada &lt;strong&gt;Adoptium Eclipse Temurin OpenJDK&lt;/strong&gt;, la cual cuenta con soporte por la comunidad de Adoptium y es actualizada constantemente.&lt;/p&gt;
+&lt;p&gt;Para poder instalar el JDK tenemos dos alternativas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;A través de un administrador de paquetes en Windows conocido como &lt;strong&gt;Chocolatey&lt;/strong&gt; y &lt;strong&gt;Homebrew&lt;/strong&gt; para MacOS.&lt;/p&gt;
+&lt;p&gt;Los administradores de paquetes nos facilitan la instalación de programas o librerias en el sistema operativo de nuestra preferencia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;La segunda alternativa es a través de un proceso manual únicamente con el archivo &lt;strong&gt;jar&lt;/strong&gt; o &lt;strong&gt;.exe&lt;/strong&gt; proporcionado por el proveedor, la cual, es mucho más sencilla.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;instalación-en-windows&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-en-windows&quot; aria-label=&quot;instalación en windows permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación en Windows&lt;/h3&gt;
+&lt;p&gt;Para la instalación de la JDK en Windows, haremos uso del administrador de paquetes &lt;strong&gt;Chocolatey&lt;/strong&gt;. Para instalar Chocolatey, ejecuta el siguiente comando como administrador en una terminal de Powershell.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;Set-ExecutionPolicy&lt;/span&gt; Bypass &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Scope &lt;span class=&quot;token keyword&quot;&gt;Process&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Force&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol = &lt;span class=&quot;token namespace&quot;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol &lt;span class=&quot;token operator&quot;&gt;-bor&lt;/span&gt; 3072&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;iex&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;New-Object&lt;/span&gt; System&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebClient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DownloadString&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://community.chocolatey.org/install.ps1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Espera a que la ejecución del comando finalice, si no muestra ningún mensaje de error, puedes empezar a utilizar Chocolatey 🎉.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Puedes utilizar el comando &lt;code class=&quot;language-text&quot;&gt;choco&lt;/code&gt; para verificar la instalación.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para más información sobre chocolatey, visita la web oficial: &lt;a href=&quot;https://chocolatey.org&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://chocolatey.org&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ahora, procederemos a instalar el Java Developmet Kit (Java JDK), a través de una terminal de &lt;strong&gt;CMD&lt;/strong&gt; o &lt;strong&gt;Powershell&lt;/strong&gt; con Permisos de Administrador, ejecuta el comando:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;choco &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; temurin&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Al ejecutar el comando, se mostrará un mensaje de confirmación para poder ejecutar el script de instalación, por lo que debemos confirmar escribiendo &lt;strong&gt;Y&lt;/strong&gt; o &lt;strong&gt;A&lt;/strong&gt; y luego &lt;strong&gt;Enter&lt;/strong&gt; para aceptar todas las posibles opciones que el script contenga.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0249a8579cfb4088acaf23fcac068444/d9c39/notebook.jpg&quot;
+    href=&quot;/static/65a55fdac757800d7fc60da9ba5217b0/37523/choco-install-ref.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyWBEP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5BbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAIQERJxASIxof/aAAgBAQAGPwJ54saMahE3Uj6n/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITFBUZH/2gAIAQEAAT8h3egrVCZSAAuC9mdK7k0lwu4A9Bcc/9oADAMBAAIAAwAAABCwD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QE7av/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxB3CD//xAAdEAEAAQQDAQAAAAAAAAAAAAABABEhQXExUWGh/9oACAEBAAE/EMWwAGg1eGSSauAw8o7fap+QwlXZzvuUAWtaA8wRVVbrdXM//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 48.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABKklEQVQoz43R227bMAwAUL8m8UWUTImUSFp21CboBvTy/x9XJF6wAuuGHfCBD+IFVJdNimRKkZnMjJnL/xGR7vyj1s22dV2WijNO43T44vh3h8Ohq89mT2pX1aq5sCwFgnfOAcA4jsMf+odhGLp0meM14BXoBellTpeZn1OS6L3vf7/8XtcudW22NatNapMsFEJAROfcNE378K8r9H1/ursVP7XWzudtXVWEiUPw4MF7H+6IKN0x87IsKSUAyDmnlEIIXUwxpkhMarpHu/VrZlZKUdVSCiIS0V6DiACwt+7eXz9ef76d16ZZNaupcWKcMWIMPuyXcw97PgzDr7WrWBVdRJciJXIJzJ5wDP10PI7ff9LpoSuVyhpzjbIlT+BmBxE8Oo/ezx7+6RMA2DCTmm1fVQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/static/0249a8579cfb4088acaf23fcac068444/8ac56/notebook.webp 240w,
-/static/0249a8579cfb4088acaf23fcac068444/d3be9/notebook.webp 480w,
-/static/0249a8579cfb4088acaf23fcac068444/e46b2/notebook.webp 960w,
-/static/0249a8579cfb4088acaf23fcac068444/f992d/notebook.webp 1440w,
-/static/0249a8579cfb4088acaf23fcac068444/62ed8/notebook.webp 1800w&quot;
-              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              srcset=&quot;/static/65a55fdac757800d7fc60da9ba5217b0/8ac56/choco-install-ref.webp 240w,
+/static/65a55fdac757800d7fc60da9ba5217b0/d3be9/choco-install-ref.webp 480w,
+/static/65a55fdac757800d7fc60da9ba5217b0/bc514/choco-install-ref.webp 720w&quot;
+              sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/static/0249a8579cfb4088acaf23fcac068444/09b79/notebook.jpg 240w,
-/static/0249a8579cfb4088acaf23fcac068444/7cc5e/notebook.jpg 480w,
-/static/0249a8579cfb4088acaf23fcac068444/6a068/notebook.jpg 960w,
-/static/0249a8579cfb4088acaf23fcac068444/644c5/notebook.jpg 1440w,
-/static/0249a8579cfb4088acaf23fcac068444/d9c39/notebook.jpg 1800w&quot;
-            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/jpeg&quot;
+            srcset=&quot;/static/65a55fdac757800d7fc60da9ba5217b0/8ff5a/choco-install-ref.png 240w,
+/static/65a55fdac757800d7fc60da9ba5217b0/e85cb/choco-install-ref.png 480w,
+/static/65a55fdac757800d7fc60da9ba5217b0/37523/choco-install-ref.png 720w&quot;
+            sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+            type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/static/0249a8579cfb4088acaf23fcac068444/6a068/notebook.jpg&quot;
-            alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
-            title=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
+            src=&quot;/static/65a55fdac757800d7fc60da9ba5217b0/37523/choco-install-ref.png&quot;
+            alt=&quot;alt text&quot;
+            title=&quot;alt text&quot;
             loading=&quot;lazy&quot;
             decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
@@ -45,5 +82,105 @@
         &lt;/picture&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.&lt;/p&gt;
-&lt;p&gt;Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;El mensaje &lt;code class=&quot;language-text&quot;&gt;Chocolatey installed 1/1 packages&lt;/code&gt; nos indica la instalación exitosa del Java JDK. 😄&lt;/p&gt;
+&lt;p&gt;Ahora, solo nos queda verificar la instalación de la JDK mediante el comando&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token function&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b501f76baa2e3441af6f71871f14c01/37523/java-verification-ref.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAm0lEQVQI123MWw+CIBiAYW7jw4AAG+lcDeXoclnKWtf1/39Sy62LDs/e6xeZtnW201pX1S6GELy3C7dkbeec9T9ijCkl1B+Hfhh8TCF5672ua1luhSq5kBuppCrXjAP5AG/oMY+PebxPp2vosjPZmVty2ZpLu8/OTPZwNk2jBMZfhxckaKE4VZxyAhRWnAAjeAkYYAaYF8AK8tcTJ8AZDz+EhmAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4b501f76baa2e3441af6f71871f14c01/8ac56/java-verification-ref.webp 240w,
+/static/4b501f76baa2e3441af6f71871f14c01/d3be9/java-verification-ref.webp 480w,
+/static/4b501f76baa2e3441af6f71871f14c01/bc514/java-verification-ref.webp 720w&quot;
+              sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4b501f76baa2e3441af6f71871f14c01/8ff5a/java-verification-ref.png 240w,
+/static/4b501f76baa2e3441af6f71871f14c01/e85cb/java-verification-ref.png 480w,
+/static/4b501f76baa2e3441af6f71871f14c01/37523/java-verification-ref.png 720w&quot;
+            sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4b501f76baa2e3441af6f71871f14c01/37523/java-verification-ref.png&quot;
+            alt=&quot;alt text&quot;
+            title=&quot;alt text&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;✋ En caso de mostrarse un mensaje de error como el siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Java is not recognized as an internal or external command, operable program or batch file&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Esto podría significar que no se instaló correctamente o el binario de java no se encuentra en las variables de entorno del sistema.&lt;/p&gt;
+&lt;h3 id=&quot;instalación-en-macos-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#instalaci%C3%B3n-en-macos-&quot; aria-label=&quot;instalación en macos  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Instalación en MacOS &lt;/h3&gt;
+&lt;p&gt;Para realizar la instalación de Java JDK haremos uso de &lt;strong&gt;Homebrew&lt;/strong&gt;, el administrador de paquetes de MacOS.&lt;/p&gt;
+&lt;p&gt;Para instalar &lt;strong&gt;Homebrew&lt;/strong&gt;, ejecuta el siguiente comando en una nueva terminal:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;/bin/bash &lt;span class=&quot;token parameter variable&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Luego de instalar Homebrew, tendremos que agregar el repositorio de homebrew de terceros, el cual nos permite obtener las diferentes versiones para el paquete de temurin.&lt;/p&gt;
+&lt;p&gt;Ejecutamos el siguiente comando para agregar el repositorio:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;brew tap homebrew/cask-versions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Mediante el siguiente comando, específicamos que instalaremos la JDK versión 1.8, si no se especifica la versión deseada, &lt;strong&gt;brew instalará la última versión estable&lt;/strong&gt; y disponible dentro del repositorio.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;brew &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--cask&lt;/span&gt; temurin8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El mensaje &lt;code class=&quot;language-text&quot;&gt;🍺 temurin8 was successfully installed!&lt;/code&gt; nos indica que el JDK se ha instalado correctamente.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f9e72a8c0a495de488016951b145deb9/99f37/java-verification-ref-macos.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsTAAALEwEAmpwYAAABE0lEQVQY043Py26DMBAFUP7/y1IpTaUIg2dsEA+bR0ByiA0YKNCaKqumUs9mNnNHcz3OwpBS3ycAwCJu+r7vB63dMKYfR7ssn2YYB2e01i5P87J4nEecMUIIIrKDEELrh7XWjuMyz/u+7X/w0GGUUgQMgxARkyS53W5N07Rt+3i4K9u2rU/bkwuXZaFUq7VWSnVdN03T/m8eAF6vFwD0fZ9xFscx5zyO4yiKOOfHXwgAlFJCCGMMDkIIFyZBcDq9vV/OH/QMSBExCAJEdEUQpZBZmpVlWVVVeSiKoq7r+/3uwmFIsyyTUlZVLYRsm7brOq21MWYYhnVd53n+afjibZGnUhZ5nksp0zRVSv1e2l75Dn8BH4q+Gu5DGaUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/f9e72a8c0a495de488016951b145deb9/8ac56/java-verification-ref-macos.webp 240w,
+/static/f9e72a8c0a495de488016951b145deb9/d3be9/java-verification-ref-macos.webp 480w,
+/static/f9e72a8c0a495de488016951b145deb9/e46b2/java-verification-ref-macos.webp 960w,
+/static/f9e72a8c0a495de488016951b145deb9/abb12/java-verification-ref-macos.webp 1100w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/f9e72a8c0a495de488016951b145deb9/8ff5a/java-verification-ref-macos.png 240w,
+/static/f9e72a8c0a495de488016951b145deb9/e85cb/java-verification-ref-macos.png 480w,
+/static/f9e72a8c0a495de488016951b145deb9/d9199/java-verification-ref-macos.png 960w,
+/static/f9e72a8c0a495de488016951b145deb9/99f37/java-verification-ref-macos.png 1100w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/f9e72a8c0a495de488016951b145deb9/d9199/java-verification-ref-macos.png&quot;
+            alt=&quot;alt text&quot;
+            title=&quot;alt text&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
