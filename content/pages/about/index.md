@@ -9,9 +9,9 @@ socialImage: "./umberto-jXd2FSvcRr8-unsplash.jpg"
   Soy Edenilson 👨‍💻
 </h1>
 
-**Acerca de mí.**
+**Acerca de mi.**
 
-Soy un desarrollador de software autodidacta, con especialización en tecnologías de backend y servicios en la nube, incluyendo Java, Spring Boot, Oracle Cloud y Amazon Web Services.\
+Soy un desarrollador de software autodidacta, con especialización en tecnologías de backend y servicios en la nube, incluyendo Java, Spring Boot, Oracle Cloud y Amazon Web Services.
 
 Dentro de mi sitio web encontraras guías, recursos, código fuente de ejemplo y mucho más, esto con el fin de compartir mi conocimiento y experiencia de diferentes tecnologías, aplicadas a un caso de uso práctico.
 
