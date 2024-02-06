@@ -5,12 +5,14 @@ socialImage: "./umberto-jXd2FSvcRr8-unsplash.jpg"
 ---
 
 <h1 align='center'>
-  Hi there! <br>
-  I'm Edenilson 👨‍💻
+  ¡Hola! <br>
+  Soy Edenilson 👨‍💻
 </h1>
 
-**About me.**
+**Acerca de mí.**
 
-I'm a self-taught passionate Software Developer specialized in Backend and Cloud Technologies such as Java, Spring Boot, Oracle Cloud and Amazon Web Services.
+Soy un desarrollador de software autodidacta, con especialización en tecnologías de backend y servicios en la nube, incluyendo Java, Spring Boot, Oracle Cloud y Amazon Web Services.\
 
-This website is designed to showcase a comprehensive selection of my projects. My professional journey is marked by a relentless pursuit of excellence and innovation in the software development field. 
+Dentro de mi sitio web encontraras guías, recursos, código fuente de ejemplo y mucho más, esto con el fin de compartir mi conocimiento y experiencia de diferentes tecnologías, aplicadas a un caso de uso práctico.
+
+Mi carrera profesional está definida por un compromiso constante con la excelencia y la innovación en el ámbito del desarrollo de software.
