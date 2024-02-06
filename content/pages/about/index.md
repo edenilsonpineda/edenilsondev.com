@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Acerca de mi"
 template: "page"
 socialImage: "./umberto-jXd2FSvcRr8-unsplash.jpg"
 ---
