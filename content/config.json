@@ -1,7 +1,7 @@
 {
   "title": "Blog by Edenilson Pineda",
   "url": "https://edenilsondev.com",
-  "subtitle": "Software Engineer based on El Salvador 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
+  "subtitle": "Software Engineer Salvadoreño 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "G-FTY0THCZ4D",
   "disqusShortname": "",
@@ -9,18 +9,18 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "Artículos",
       "path": "/"
     },
     {
-      "label": "About me",
+      "label": "Acerca de mi",
       "path": "/pages/about"
     }
   ],
   "author": {
     "name": "Edenilson Pineda",
     "photo": "/profile.jpg",
-    "bio": "Software Engineer based on El Salvador 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
+    "bio": "Software Developer Salvadoreño 🇸🇻 | Java, Microservices, Oracle Cloud, AWS",
     "contacts": {
       "rss": "",
       "email": "",
@@ -28,7 +28,7 @@
       "facebook": "#",
       "telegram": "#",
       "twitter": "#",
-      "linkedin": "#",
+      "linkedin": "edenilsonpineda",
       "instagram": "#",
       "mastodon": "#",
       "line": "",
